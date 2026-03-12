@@ -1,0 +1,92 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1"
+    />
+
+    <title>
+      Home | 2026 DataMade Code Challenge
+    </title>
+
+    <meta content="A map that displays Chicago's community areas, shaded depending on how many new restaurant permits were issued in a given year" name="description" />
+    <meta
+      content="2026 DataMade Code Challenge"
+      name="author"
+    />
+    <meta property="og:site_name" content="2026 DataMade Code Challenge" />
+
+    <!-- Facebook metadata -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="2026 DataMade Code Challenge"
+    />
+    <meta property="og:description" content="A map that displays Chicago's community areas, shaded depending on how many new restaurant permits were issued in a given year" />
+    <meta property="og:url" content="TK" />
+
+    <!-- Twitter metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="2-26 DataMade Code Challenge" />
+    <meta name="twitter:creator" content="DataMade" />
+    <meta
+      name="twitter:title"
+      content="2026 DataMade Code Challenge"
+    />
+    <meta name="twitter:url" content="TK" />
+    <meta name="twitter:description" content="A map that displays Chicago's community areas, shaded depending on how many new restaurant permits were issued in a given year" />
+
+    <!-- Override this block to add extra meta tags -->
+    {% block extra_meta %}{% endblock %}
+
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="{% static 'images/favicon.ico' %}"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="{% static 'images/favicon-16x16.png' %}"
+      sizes="16x16"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/ico"
+      href="{% static 'images/favicon-32x32.png' %}"
+      sizes="32x32"
+    />
+
+    <link href="{% static 'css/map.css' %}" rel="stylesheet" />
+
+    <!-- Override this block to add extra stylesheets -->
+    {% block extra_css %}{% endblock %}
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/" >2026 DataMade Code Challenge</a>
+        </div>
+      </nav>
+
+      <main>{% block body %}{% endblock %}</main>
+
+      <!-- Load external scripts -->
+      <script src="{% static 'js/lib/fontawesome.min.js' %}"></script>
+
+      <!-- Load Bootstrap styles and JavaScript -->
+      {% load render_bundle from webpack_loader %}
+      {% render_bundle 'bootstrap' js %}
+
+      <!-- Load extra external scripts -->
+      {% block extra_js %}{% endblock %}
+
+      </body>
+    </html>

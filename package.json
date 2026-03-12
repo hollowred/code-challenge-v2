@@ -1,0 +1,44 @@
+{
+  "name": "map",
+  "version": "0.0.0",
+  "description": "JavaScript development setup for map",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "serve": "webpack-dev-server --config /app/webpack.config.js --mode=development --host 0.0.0.0 --hot --open"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
+    "autoprefixer": "^10.4.27",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.4",
+    "csv-loader": "^3.0.5",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "postcss-loader": "^8.2.1",
+    "prettier": "^3.8.1",
+    "sass": "^1.97.3",
+    "sass-loader": "^16.0.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.4",
+    "webpack-bundle-tracker": "^3.2.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}

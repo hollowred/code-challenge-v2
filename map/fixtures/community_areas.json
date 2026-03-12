@@ -1,0 +1,618 @@
+[
+  {
+    "model": "map.communityarea",
+    "pk": 78,
+    "fields": {
+      "name": "ROGERS PARK",
+      "area_id": 1
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 79,
+    "fields": {
+      "name": "WEST RIDGE",
+      "area_id": 2
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 80,
+    "fields": {
+      "name": "UPTOWN",
+      "area_id": 3
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 81,
+    "fields": {
+      "name": "LINCOLN SQUARE",
+      "area_id": 4
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 82,
+    "fields": {
+      "name": "NORTH CENTER",
+      "area_id": 5
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 83,
+    "fields": {
+      "name": "LAKE VIEW",
+      "area_id": 6
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 84,
+    "fields": {
+      "name": "LINCOLN PARK",
+      "area_id": 7
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 85,
+    "fields": {
+      "name": "NEAR NORTH SIDE",
+      "area_id": 8
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 86,
+    "fields": {
+      "name": "EDISON PARK",
+      "area_id": 9
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 87,
+    "fields": {
+      "name": "NORWOOD PARK",
+      "area_id": 10
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 88,
+    "fields": {
+      "name": "JEFFERSON PARK",
+      "area_id": 11
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 89,
+    "fields": {
+      "name": "FOREST GLEN",
+      "area_id": 12
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 90,
+    "fields": {
+      "name": "NORTH PARK",
+      "area_id": 13
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 91,
+    "fields": {
+      "name": "ALBANY PARK",
+      "area_id": 14
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 92,
+    "fields": {
+      "name": "PORTAGE PARK",
+      "area_id": 15
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 93,
+    "fields": {
+      "name": "IRVING PARK",
+      "area_id": 16
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 94,
+    "fields": {
+      "name": "DUNNING",
+      "area_id": 17
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 95,
+    "fields": {
+      "name": "MONTCLARE",
+      "area_id": 18
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 96,
+    "fields": {
+      "name": "BELMONT CRAGIN",
+      "area_id": 19
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 97,
+    "fields": {
+      "name": "HERMOSA",
+      "area_id": 20
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 98,
+    "fields": {
+      "name": "AVONDALE",
+      "area_id": 21
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 99,
+    "fields": {
+      "name": "LOGAN SQUARE",
+      "area_id": 22
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 100,
+    "fields": {
+      "name": "HUMBOLDT PARK",
+      "area_id": 23
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 101,
+    "fields": {
+      "name": "WEST TOWN",
+      "area_id": 24
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 102,
+    "fields": {
+      "name": "AUSTIN",
+      "area_id": 25
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 103,
+    "fields": {
+      "name": "WEST GARFIELD PARK",
+      "area_id": 26
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 104,
+    "fields": {
+      "name": "EAST GARFIELD PARK",
+      "area_id": 27
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 105,
+    "fields": {
+      "name": "NEAR WEST SIDE",
+      "area_id": 28
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 106,
+    "fields": {
+      "name": "NORTH LAWNDALE",
+      "area_id": 29
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 107,
+    "fields": {
+      "name": "SOUTH LAWNDALE",
+      "area_id": 30
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 108,
+    "fields": {
+      "name": "LOWER WEST SIDE",
+      "area_id": 31
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 109,
+    "fields": {
+      "name": "LOOP",
+      "area_id": 32
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 110,
+    "fields": {
+      "name": "NEAR SOUTH SIDE",
+      "area_id": 33
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 111,
+    "fields": {
+      "name": "ARMOUR SQUARE",
+      "area_id": 34
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 112,
+    "fields": {
+      "name": "DOUGLAS",
+      "area_id": 35
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 113,
+    "fields": {
+      "name": "OAKLAND",
+      "area_id": 36
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 114,
+    "fields": {
+      "name": "FULLER PARK",
+      "area_id": 37
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 115,
+    "fields": {
+      "name": "GRAND BOULEVARD",
+      "area_id": 38
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 116,
+    "fields": {
+      "name": "KENWOOD",
+      "area_id": 39
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 117,
+    "fields": {
+      "name": "WASHINGTON PARK",
+      "area_id": 40
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 118,
+    "fields": {
+      "name": "HYDE PARK",
+      "area_id": 41
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 119,
+    "fields": {
+      "name": "WOODLAWN",
+      "area_id": 42
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 120,
+    "fields": {
+      "name": "SOUTH SHORE",
+      "area_id": 43
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 121,
+    "fields": {
+      "name": "CHATHAM",
+      "area_id": 44
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 122,
+    "fields": {
+      "name": "AVALON PARK",
+      "area_id": 45
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 123,
+    "fields": {
+      "name": "SOUTH CHICAGO",
+      "area_id": 46
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 124,
+    "fields": {
+      "name": "BURNSIDE",
+      "area_id": 47
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 125,
+    "fields": {
+      "name": "CALUMET HEIGHTS",
+      "area_id": 48
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 126,
+    "fields": {
+      "name": "ROSELAND",
+      "area_id": 49
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 127,
+    "fields": {
+      "name": "PULLMAN",
+      "area_id": 50
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 128,
+    "fields": {
+      "name": "SOUTH DEERING",
+      "area_id": 51
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 129,
+    "fields": {
+      "name": "EAST SIDE",
+      "area_id": 52
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 130,
+    "fields": {
+      "name": "WEST PULLMAN",
+      "area_id": 53
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 131,
+    "fields": {
+      "name": "RIVERDALE",
+      "area_id": 54
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 132,
+    "fields": {
+      "name": "HEGEWISCH",
+      "area_id": 55
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 133,
+    "fields": {
+      "name": "GARFIELD RIDGE",
+      "area_id": 56
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 134,
+    "fields": {
+      "name": "ARCHER HEIGHTS",
+      "area_id": 57
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 135,
+    "fields": {
+      "name": "BRIGHTON PARK",
+      "area_id": 58
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 136,
+    "fields": {
+      "name": "MCKINLEY PARK",
+      "area_id": 59
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 137,
+    "fields": {
+      "name": "BRIDGEPORT",
+      "area_id": 60
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 138,
+    "fields": {
+      "name": "NEW CITY",
+      "area_id": 61
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 139,
+    "fields": {
+      "name": "WEST ELSDON",
+      "area_id": 62
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 140,
+    "fields": {
+      "name": "GAGE PARK",
+      "area_id": 63
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 141,
+    "fields": {
+      "name": "CLEARING",
+      "area_id": 64
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 142,
+    "fields": {
+      "name": "WEST LAWN",
+      "area_id": 65
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 143,
+    "fields": {
+      "name": "CHICAGO LAWN",
+      "area_id": 66
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 144,
+    "fields": {
+      "name": "WEST ENGLEWOOD",
+      "area_id": 67
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 145,
+    "fields": {
+      "name": "ENGLEWOOD",
+      "area_id": 68
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 146,
+    "fields": {
+      "name": "GREATER GRAND CROSSING",
+      "area_id": 69
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 147,
+    "fields": {
+      "name": "ASHBURN",
+      "area_id": 70
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 148,
+    "fields": {
+      "name": "AUBURN GRESHAM",
+      "area_id": 71
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 149,
+    "fields": {
+      "name": "BEVERLY",
+      "area_id": 72
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 150,
+    "fields": {
+      "name": "WASHINGTON HEIGHTS",
+      "area_id": 73
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 151,
+    "fields": {
+      "name": "MOUNT GREENWOOD",
+      "area_id": 74
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 152,
+    "fields": {
+      "name": "MORGAN PARK",
+      "area_id": 75
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 153,
+    "fields": {
+      "name": "OHARE",
+      "area_id": 76
+    }
+  },
+  {
+    "model": "map.communityarea",
+    "pk": 154,
+    "fields": {
+      "name": "EDGEWATER",
+      "area_id": 77
+    }
+  }
+]
