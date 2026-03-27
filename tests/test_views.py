@@ -34,7 +34,7 @@ def test_map_data_view():
 
     # Query the map data endpoint
     client = APIClient()
-    response = client.get(reverse("map_data", query={"year": 2021}))
+    response = client.get(reverse("map_data"), {"year": 2021})
 
     # TODO: Complete the test by asserting that the /map-data/ endpoint
     # returns the correct number of permits for Beverly and Lincoln 
